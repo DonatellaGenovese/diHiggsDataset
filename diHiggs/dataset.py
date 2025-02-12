@@ -10,6 +10,7 @@ import shutil
 import tarfile
 import glob
 from .transforms import MakeHomogeneous
+import numpy as np
 
 
 # Random state for shuffling the dataset.
