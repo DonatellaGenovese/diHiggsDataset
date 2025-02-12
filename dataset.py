@@ -55,7 +55,7 @@ USEFUL_COLS = [
 
 # A markdown table to display the structure of a single event.
 EVENT_TABLE = """
-     Each event is a graph with 6/7 nodes. Each node is built from the raw file as follows:
+     Each event is a graph with 5/6 nodes. Each node is built from the raw file as follows:
 
      | Particle          | Feature 1 | Feature 2 | Feature 3   |
      |-------------------|-----------|-----------|-------------|
@@ -74,7 +74,7 @@ class EventsDataset(InMemoryDataset):
          - singletop, label 0
          - ttbar, label 0
 
-     Each event is a graph with 6 or 7 nodes and 6 attributes. Graphs are fully connected.
+     Each event is a graph with 5 or 6 nodes and 6 attributes. Graphs are fully connected.
 
      Args:
          root (str): Root directory where the dataset should be saved.
