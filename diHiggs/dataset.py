@@ -9,7 +9,7 @@ from .utils import convert
 import shutil
 import tarfile
 import glob
-from sparticles.transforms import MakeHomogeneous
+from .transforms import MakeHomogeneous
 
 
 # Random state for shuffling the dataset.
