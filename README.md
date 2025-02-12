@@ -1,4 +1,4 @@
-# Di-Higgs-Graph-Dataset
+# di-Higgs Graph Dataset
 Manipulate collision events from the di-Higgs production.
 
 Each event is a graph with 5/6 nodes. Each node is built from the raw file as follows:
