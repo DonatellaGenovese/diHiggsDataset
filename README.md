@@ -30,5 +30,6 @@ Each event is a graph with 5/6 nodes. Each node is built from the raw file as fo
 
 
 
-#### Changelog
-The code is adapted from [this repository](https://github.com/alessiodevoto/sparticles)
+#### Credits
+# Adapted from: https://github.com/alessiodevoto/sparticles
+# Original Author: Alessio Devoto
