@@ -16,6 +16,7 @@ graphs = EventsDataset(
 )
 
 ```
+> EventsDataset(200)
 
 Each event is a graph with 5/6 nodes. Each node is built from the raw file as follows:
 
@@ -29,9 +30,27 @@ Each event is a graph with 5/6 nodes. Each node is built from the raw file as fo
 | jet               |  'pTj1'   | 'etaj1'   |   'phij1'   |
 
 
+```python
+g = graphs[0]
+print(g)
+```
+
+> Data(x=[6, 3], edge_index=[2, 30], y=[1], event_id='signal_152111')
 
 
+```python
+from visualize import plot_event_2d
+plot_event_2d(graphs[100])
+```
 
+<img src="images/single.png" >
+
+
+```python
+a_list_of_graphs = [graphs[i] for i in range(0, 300, 30)]
+plot_event_2d(a_list_of_graphs, show_energy=True, height=1500)
+```
+<img src="images/multiple.png" >
 
 
 
