@@ -13,6 +13,7 @@ graphs = EventsDataset(
             delete_raw_archive=False,
             add_edge_index=True,
             event_subsets={'signal': 100, 'singletop': 0, 'ttbar': 100},
+            signal_filename='FCChh_lephad.h5'  
 )
 
 ```
