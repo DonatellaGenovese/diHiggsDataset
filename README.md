@@ -43,26 +43,14 @@ from visualize import plot_event_2d
 plot_event_2d(graphs[100])
 ```
 
-<img src="images/single.png" >
+<img src="images/single_plot.png" >
 
 
 ```python
 a_list_of_graphs = [graphs[i] for i in range(0, 300, 30)]
 plot_event_2d(a_list_of_graphs, show_energy=True, height=1500)
 ```
-<img src="images/multiple.png" >
-
-
-
-
-
-
-
-
-
-
-
-
+<img src="images/multiple_plot.png" >
 
 
 #### Credits
