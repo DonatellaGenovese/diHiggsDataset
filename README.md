@@ -15,7 +15,6 @@ graphs = EventsDataset(
             event_subsets={'signal': 100, 'singletop': 0, 'ttbar': 100},
 )
 
-graphs
 ```
 
 Each event is a graph with 5/6 nodes. Each node is built from the raw file as follows:
