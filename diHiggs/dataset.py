@@ -33,8 +33,8 @@ EVENT_LABELS = {
 # The total number of events in the dataset is the sum of the values in this dictionary.
 # We can use these values to have a more balanced dataset.
 DEFAULT_EVENT_SUBSETS = {
-     'signal': 463056,
-     'ttbar': 6093298
+     'signal': 203399 ,
+     'ttbar': 353971
  }
 
 # These are the columns we should keep from the raw pandas dataframe.
