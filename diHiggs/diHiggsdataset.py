@@ -4,12 +4,12 @@ import pandas as pd
 from torch_geometric.data import Data
 from tqdm import tqdm
 import os
-from .utils import make_tuple
-from .utils import convert
+from .diHiggsutils import make_tuple
+from .diHiggsutils import convert
 import shutil
 import tarfile
 import glob
-from .transforms import MakeHomogeneous
+from .diHiggstransforms import MakeHomogeneous
 import numpy as np
 
 
